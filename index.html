@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thoughts-Cocktail</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="background"></div>
+
+  <header class="navbar">
+    <h1 class="logo">Thoughts-Cocktail</h1>
+
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search any cocktail...">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="roulette-container">
+      <button id="rouletteBtn">🍸 Cocktail Roulette</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Discover Your Favorite Cocktails</h2>
+    <p>Search, explore, and let the roulette surprise you!</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Trending Cocktails</h2>
+    <div id="cocktailGrid" class="grid"></div>
+  </section>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeBtn">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

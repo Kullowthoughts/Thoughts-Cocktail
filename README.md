@@ -65,5 +65,3 @@ Contributions are welcome! You can fork the repository, make changes, and submit
 This project is open-source and available under the MIT License.
 
 ---
-
-Do you want me to do that next?
